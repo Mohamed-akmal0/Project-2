@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    width: 1501px;
+    height: 60px;
+    border-style: solid;
+    border-color:rgb(219 217 219); 
+    box-shadow:rgb(219 217 219) 1px 1px;
+    border-width: 1px;
+    /* position: relative; */
+    vertical-align: top;
+    
+}
+.logo{
+    /* display: flex;
+    flex-direction: row; */
+   color: #e94f48;
+   font-family: change symbols;
+   text-align: left;
+   line-height: 55px;
+   font-size: 28px;
+   margin-left: 300px;
+   padding-top: 5px;
+   letter-spacing: normal;
+
+}
+.header-list{
+    display: flex;
+    flex-direction: row;
+    margin-left: 500px;
+    height: 60px;
+    width: 400px;
+    padding-top: 10px;
+    text-align: left;
+    position: absolute;
+    vertical-align: middle;   
+}
+.list-1{
+    color: #22292c;
+    cursor: pointer;
+    padding-top: 15px;
+    margin-right: 10px; 
+}
+.list-2{
+    color: #22292c;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 15px;
+    cursor: pointer;
+    font-family:"Change Calibre", "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif ;
+}
+.list-3{
+    color: #22292c;
+    padding-top: 15px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.header-log{
+    color: #22292c;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    margin-left: 1200px;
+    font-size: 16px;
+    line-height: 55px;
+    padding-top: 8px;
+}
+list-1:hover{
+    background-color: #e94f48;
+}
+.footer-kolkata-image{
+    margin-top: 5px;
+    padding-left: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+}
+.footer-kolkata-name{
+    color: #22292c;
+    margin-top: 5px;
+    font-size: 13.4px;
+    /* font-weight: bold; */
+    margin-left: 10px;
+    line-height: 20px;
+}
+.footer-kolkata-number{
+    color: #22292c;
+    font-size: 12.8px;
+    margin-left: 58px;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.inner-text2{
+    margin-top: 11px;
+    margin-left: 10px;
+    width: 650px;
+    height:150px ;
+    /* background-color:yellow; */
+}
+
+.inner-text-head2{
+    width: 480px;
+    height: 40px;
+    color: #22292c;
+    font-size: 18px;
+    line-height: 24px;
+    cursor: pointer;
+    /* background-color:pink; */
+}
+.inner-text-content3{
+    width: 480px;
+    margin-top: 12px;
+    /* background-color:green; */
+    height:80px;
+    color: #22292c;
+    font-size: 14px;
+    text-align: start;
+    line-height: 19.2px;  
+}
+.inner-footer-name3{
+    margin-top: 8px;
+    margin-left: 40px;
+    font-size: 12.8px;
+    text-align: left;
+    color: #22292c;
+}
+.inner-footer3{
+    width: 650px;
+    height: 80px;
+}
